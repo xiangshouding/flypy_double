@@ -14,5 +14,5 @@ patch:
       - { when: has_menu, accept: apostrophe, send: 3 }
       - { when: has_menu, accept: equal, send: Page_Down }
       - { when: has_menu, accept: minus, send: Page_Up }
-      - { when: always, accept: Control+t, toggle: flypy_zh_simp  }
+      - { when: always, accept: Control+t, toggle: flypy_zh_simp }
 
